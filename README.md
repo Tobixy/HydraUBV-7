@@ -20,7 +20,7 @@ A modular telegram Python bot Userbot running on python3 with an mongodb databas
 + [Hyper Speed ™](https://t.me/Hyper_Speed0) : Owner 
 + [Nandha](https://github.com/NandhaxD) : Helper 
 
-# Heroku Installation
+# Installation
 
 Hᴇʀᴏᴋᴜ : Click Deploy option below Click Heroku and Add Vars After click Deploy in heroku if deploy success open your heroku app click 2nd Option and Turn on the dynos And Check Logs if no error You successfully deployed
  
@@ -43,7 +43,7 @@ Hᴇʀᴏᴋᴜ : Click Deploy option below Click Heroku and Add Vars After clic
 </p>
 
 ```console
-    ~$ git clone https://github.com/Otazuki004/Hydradevlopment4.0.git
+    ~$ git clone https://github.com/Otazuki004/HydraUBV-7.git
     ~$ cd Hydra
     ~$ cp sample_config.py config.py
 ```
