@@ -49,7 +49,7 @@ API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 SESSION = os.getenv("SESSION") 
 
-Hydra = Client(name="Barath", session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="Hydra"),)
+Hydra = Client(name="Hydra", session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="HydraUB"),)
 
 DB_URL = "mongodb+srv://personaluse:ImCrAzYbOy@personaluse.ounsjuz.mongodb.net/?retryWrites=true&w=majority"
 DB = MongoClient(DB_URL)
