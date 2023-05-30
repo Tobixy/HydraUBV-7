@@ -1,4 +1,4 @@
-from Hydra import Hydra as HS
+from HydraUB import Hydra as HS
 from pyrogram import filters
 from HydraUB.DB.clone_db import store_profile, get_profile
 import config
