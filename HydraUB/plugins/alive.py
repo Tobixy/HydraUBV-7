@@ -18,13 +18,12 @@ from HydraUB import get_readable_time, StartTime
 from HydraUB import Hydra as HS
 
 
-911 = "Lᴏᴀᴅɪɴɢ HʏᴅʀᴀUB"
 
 
 @HS.on_message(filters.command("alive",prefixes=HANDLER) & filters.user(OWNER_ID))
 async def alive(_, message):
     name = (await HS.get_me()).first_name
-    await message.edit(911)
+    await message.edit("Lᴏᴀᴅɪɴɢ HʏᴅʀᴀUB")
     await asyncio.sleep(3)
     await message.delete()
     alive = await message.reply_animation(HS, caption="")
