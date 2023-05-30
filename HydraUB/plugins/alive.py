@@ -20,7 +20,7 @@ from HydraUB import Hydra as HS
 
 
 
-@HS.on_message(filters.command("alive",prefixes=HANDLER) & filters.user(OWNER_ID))
+@HS.on_message(filters.command("alive",prefixes=HANDLER) & filters.user("5965055071"))
 async def alive(_, message):
     name = (await HS.get_me()).first_name
     await message.edit("Lᴏᴀᴅɪɴɢ HʏᴅʀᴀUB")
