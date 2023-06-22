@@ -1,4 +1,4 @@
-from HydraUB import DATABASE
+from Hydra import DATABASE
 
 db = DATABASE["CLONE"]
 
