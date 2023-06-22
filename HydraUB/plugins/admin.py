@@ -1,7 +1,7 @@
 import config
 from pyrogram import filters, enums
 from pyrogram.types import ChatPrivileges
-from HydraUB import Hydra as HS
+from Hydra import pub as HS
 
 
 @HS.on_message(filters.command(["promote","fpromote"], prefixes=config.HANDLER) & filters.user(config.OWNER_ID))
