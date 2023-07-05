@@ -1,7 +1,7 @@
 import config
 from pyrogram import filters, enums
 from pyrogram.types import ChatPrivileges
-from HydraUB import pbot as HS
+from HydraUB import pgram as HS
 from HydraUB import DEV_USERS, prefix
 
 @HS.on_message(filters.command(["promote","fpromote"], prefixes=prefix) & filters.user(DEV_USERS))
