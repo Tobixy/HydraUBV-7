@@ -1,8 +1,8 @@
 import config
 from pyrogram import filters, enums
 from pyrogram.types import ChatPrivileges
-from Hydra import pub as HS
-from Hydra import DEV_USERS, prefix
+from HydraUB import pub as HS
+from HydraUB import DEV_USERS, prefix
 
 @HS.on_message(filters.command(["promote","fpromote"], prefixes=prefix) & filters.user(DEV_USERS))
 async def promote_member(_, message):
